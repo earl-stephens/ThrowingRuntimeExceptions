@@ -6,7 +6,7 @@ public class App {
 		Thermostat stat = new Thermostat();
 		
 		try {
-			stat.setTemperature(20);
+			stat.setTemperature(-20);
 		} catch (Exception e) {
 			e.printStackTrace();
 			System.out.println(e.getMessage());
